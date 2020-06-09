@@ -15,11 +15,6 @@ var val={
             return false;
             if(age>0 && age<150) return true;
             return  false;
-    },
-    sex(sex){
-        if(typeof (sex)=="string" && sex.length==1)
-        return true;
-        return false;
     }
 
 }
